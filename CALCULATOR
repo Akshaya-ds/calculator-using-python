@@ -1,0 +1,11 @@
+num1=int(input("give num1:"))
+num2=int(input("give num2:"))
+operator=input("give operation")
+if operator=="+":
+  print("sum of 2 numbers is",num1+num2)
+elif operator=="-":
+  print("sub of 2 numbers is",num1-num2)
+elif operator=="*":
+  print("mul of 2 numbers is:",num1*num2)
+else:
+  print("div of 2 numbers is:",num1/num2)
